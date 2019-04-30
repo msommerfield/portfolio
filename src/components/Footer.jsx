@@ -1,11 +1,38 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
+// import StickyFooter from 'react-sticky-footer';
+
+
+
+const Wrapper = styled.div`
+    background-color: rgba(176, 196, 222, .5);
+    text-decoration: none;
+    display: flex;
+    flex-shrink: 0;
+    padding-bottom:10px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    /* justify-content: space-around; */
+
+
+    a {
+    color: rgb(230, 230, 250);
+    text-decoration: none;
+    font-family: 'Capriola', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+    } 
+    `
 
 class Footer extends Component {
     render() {
         return (
-            <div>
-                <p>hi from footer</p>
-            </div>
+            <Wrapper> 
+                <h1>Mandy's footer</h1>      
+            </Wrapper>
         );
     }
 }

@@ -27,6 +27,7 @@ class NavBar extends Component {
                 <a href="/">Home</a>
                 <a href="/AboutMe/">About Me</a>
                 <a href="/Projects/">Projects</a>
+                <a href="/ContactMe/">Contact Me</a>
             </Wrapper>
         );
     }
