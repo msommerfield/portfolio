@@ -31,7 +31,24 @@ class Footer extends Component {
     render() {
         return (
             <Wrapper> 
-                <h1>Mandy's footer</h1>      
+                <div className="social-links">
+
+                     {/* Linkedin */}
+                    <a href="https://www.linkedin.com/in/mandy-sommerfield/" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    </a>
+
+                    {/* Github */}
+                    <a href="https://github.com/msommerfield/" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-github-square" aria-hidden="true" />
+                    </a>
+
+                     {/* Github */}
+                     <a href="https://www.instagram.com/mandddyyy/" rel="noopener noreferrer" target="_blank">
+                     <i className="fa fa-instagram" aria-hidden="true" />
+                    </a>
+
+                </div>    
             </Wrapper>
         );
     }
