@@ -39,3 +39,7 @@
   margin: auto;
   padding-top: 10px;
 }
+
+.social-links i {
+  font-size: 2em;
+}

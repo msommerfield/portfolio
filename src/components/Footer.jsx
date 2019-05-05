@@ -48,6 +48,10 @@ class Footer extends Component {
                      <i className="fa fa-instagram" aria-hidden="true" />
                     </a>
 
+                    <a href="mailto:mandysommerfield@gmail.com" rel="noreferrer" target="_blank">
+                    <i className="fa fa-envelope social-link"/>
+                    </a>
+
                 </div>    
             </Wrapper>
         );
