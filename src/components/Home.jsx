@@ -3,11 +3,14 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
     color: rgb(230, 230, 250);
-    /* padding-top: 60px; */
     margin-top: 90px;
     font-size: 40px;
     text-shadow: 2px 2px 4px #000000;
-    font-family: 'Berkshire Swash', cursive;
+    
+    h1{
+        font-family: 'Berkshire Swash', cursive;
+    }
+    
     p{
         font-family: 'Capriola', sans-serif;
         font-size: 25px;
